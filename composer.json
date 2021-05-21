@@ -1,0 +1,28 @@
+{
+    "name": "jdswebservice/material-admin-dashboard-dark",
+    "description": "An admin dashboard for Laravel based off of the Material Dark theme",
+    "homepage": "https://github.com/JDsWebService/material-admin-dashboard-dark",
+    "keywords": ["Laravel", "Admin Dashboard", "Material", "Dark", "Bootstrap", "jQuery", "Popper", "FontAwesome"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Robinson",
+            "email": "jdswebservice@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "JDsWebService\\AdminDashboardMaterialDark\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JDsWebService\\AdminDashboardMaterialDark\\DashboardServiceProvider"
+            ]
+        }
+    }
+}
